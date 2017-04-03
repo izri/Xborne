@@ -1,0 +1,8 @@
+Pour lancer le workflow1, il faut taper les commandes suivantes :
+
+
+chmod +x  workflow1.sh
+./workflow1.sh nomModel
+
+indiquer le nom du modèle en sortie.
+si ce nom est déjà utilisé un message sera affiché
