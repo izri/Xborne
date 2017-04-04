@@ -8,12 +8,8 @@ echo $1
 #récupération du premier argument d'entrée lors du lancement du shell 
 model=$1
 res="res.txt"
-#"batch"
-clean="cleanModel.sh"
-
-	#nettoyage de l'espace de travail
-	chmod +x $clean
-	#./$clean
+ 
+ 
 #ls $1.* > $res # à utiliser uniquement si la création du dossier associé au nom du model est supprimer (voir les lignes 54 et 55 de ce script)
 ls $1* > $res
  
